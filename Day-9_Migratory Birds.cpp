@@ -1,5 +1,5 @@
 /*
- * DATE: 17/09/2026
+ * DATE: 19/09/2026
  *
  * PROBLEM LINK: https://www.hackerrank.com/challenges/migratory-birds/problem
  * PROBLEM STATEMENT:
