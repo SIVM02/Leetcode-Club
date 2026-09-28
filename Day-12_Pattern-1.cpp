@@ -2,7 +2,7 @@
  * DATE: 28/09/2026
  *
  * PROBLEM LINK: https://takeuforward.org/practice/dsa/pattern-1
- * PROBLEM STATEMENT: pattern 1:
+ * PROBLEM STATEMENT: pattern 1: 
  *    Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
 
 *****
