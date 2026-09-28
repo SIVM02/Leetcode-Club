@@ -3,7 +3,7 @@
  *
  * PROBLEM LINK: https://www.hackerrank.com/challenges/grading/problem
  * PROBLEM STATEMENT:
- *HackerLand University has the following grading policy:
+ *HackerLand University has the following grading policy: 
 
       Every student receives a grade in the inclusive range from 0 to 100.
       Any grade less than 40 is a failing grade.
