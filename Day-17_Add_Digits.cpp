@@ -1,11 +1,8 @@
 /*
  * DATE: 01/10/2026
- *
  * PROBLEM LINK: https://leetcode.com/problems/add-digits/description/?envType=problem-list-v2&envId=math
  * PROBLEM STATEMENT:
  *      Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
-
- 
 
 Example 1:
 Input: num = 38
@@ -38,7 +35,8 @@ Constraints:
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
  *      1}sum must be reset to 0 in every outer-loop iteration.
  *      2}Nested loops are useful when an operation on digits must be repeated.
- *      3}Edge case: num = 0 directly returns 0.       __________________________________________________
+ *      3}Edge case: num = 0 directly returns 0.       
+   __________________________________________________
  * Write insights here
  * __________________________________________________
  *
