@@ -4,9 +4,6 @@
  * PROBLEM LINK: https://leetcode.com/problems/palindrome-number/description/?envType=problem-list-v2&envId=math
  * PROBLEM STATEMENT:
  *      Given an integer x, return true if x is a palindrome, and false otherwise.
-
- 
-
 Example 1:
 Input: x = 121
 Output: true
@@ -22,14 +19,12 @@ Input: x = 10
 Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  
-
 Constraints:
 -2^31 <= x <= 2^31 - 1
 
  * __________________________________________________
  * Write statement notes here
  *        1} A number is a palindrome if it remains the same when reversed.
-
           2}Negative numbers are not considered palindromes.
  * __________________________________________________
  *
@@ -41,7 +36,6 @@ Constraints:
  __________________________________________________
  * Write insights here
  * __________________________________________________
- *
  */
 
 class Solution {
