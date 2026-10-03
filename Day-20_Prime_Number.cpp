@@ -29,6 +29,12 @@ Constraints:
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
  * __________________________________________________
  * Write insights here
+         1} A prime number is greater than 1 and has exactly two factors: 1 and itself.
+         2} A better approach is to check from 2 to √n, giving O(√n) time. i work on it .
+         3} n < 2 is immediately not prime.
+         4} If any i satisfies n % i == 0, then n is not prime.
+         
+
  * __________________________________________________
  *
  */
