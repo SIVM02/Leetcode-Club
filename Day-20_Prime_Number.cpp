@@ -19,7 +19,7 @@ Input: n = 1
 Output: false
 Explanation: 1 has only one divisor (1 itself), which is not sufficient for it to be considered prime.
 Constraints:
-1 ≤ n ≤ 109
+1 ≤ n ≤ 10^9
 
 
 * __________________________________________________
