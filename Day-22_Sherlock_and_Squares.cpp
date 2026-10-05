@@ -44,7 +44,6 @@ Explanation
 Test Case #00: In range[3,9] , 4 and 9 are the two square integers.
 Test Case #01: In range [17,24], there are no square integers.
 
-
  * __________________________________________________
  * Write statement notes here
  * __________________________________________________
