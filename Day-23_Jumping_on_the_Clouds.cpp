@@ -7,7 +7,7 @@
 
 For each game, you will get an array of clouds numbered 0 if they are safe or 1 if they must be avoided.
 
-Example
+Example:-
 c = [0, 1, 0, 0, 0, 1, 0]
 
 Index the array from 0...6. The number on each cloud is its Index in the list so the player must avoid the clouds at indices 1 and 5. They could follow these two paths: 0-2-4-6 or 0-2-3-4-6. The first path takes 3 jumps while the second takes 4. Return 3.
@@ -42,20 +42,18 @@ Sample Output 0
 Explanation 0:
 The player must avoid c[2] and c[5]. The game can be won with a minimum of 4 jumps.
 
-
  * __________________________________________________
  * Write statement notes here
  * __________________________________________________
  *
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
- * 
+ *
  *      - This is a GREEDY problem.
  *      - At every cloud, try to jump 2 positions first.
  *        - If the cloud at i + 2 is safe, take the +2 jump.
  *        - Otherwise, take the +1 jump.
  * 
  * - Important condition:
- *
  *      i + 2 < c.size()
  *          -> Make sure i + 2 is inside the array.
  *
