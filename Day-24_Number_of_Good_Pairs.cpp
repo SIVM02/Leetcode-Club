@@ -30,7 +30,7 @@ Constraints:
  * __________________________________________________
  * Write statement notes here
  *    1}Brute force approach is Use two loop.
- *    2} 2} This avoids counting the same pair twice.
+ *    2} This avoids counting the same pair twice.
  *       Example: (0,3) is counted, so we don't need (3,0).
  *    3} Two nested loops give O(n²) time and O(1) extra space.
  * __________________________________________________
