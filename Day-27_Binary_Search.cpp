@@ -38,8 +38,13 @@ Constraints:
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
  * __________________________________________________
  * Write insights here
- * 
  *      int mid = (last - first) / 2 + first ;
+        nums[mid] > target → last = mid - 1
+        nums[mid] < target → first = mid + 1
+        nums[mid] == target → return mid
+        Loop: while (first <= last)
+        Not found → return -1
+        Key: After checking mid, eliminate it using mid ± 1.
  * __________________________________________________
  *
  */
