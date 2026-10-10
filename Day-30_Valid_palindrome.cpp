@@ -4,7 +4,6 @@
  * PROBLEM LINK: https://leetcode.com/problems/valid-palindrome/description/
  * PROBLEM STATEMENT:
  *        A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
- * 
 Given a string s, return true if it is a palindrome, or false otherwise.
 
 Example 1:
@@ -30,8 +29,7 @@ s consists only of printable ASCII characters.
  * __________________________________________________
  * Write statement notes here
  * 
- *        1. A string is a palindrome if it reads the same forward
-and backward after converting uppercase letters to lowercase and removing all non-alphanumeric characters.
+ *        1. A string is a palindrome if it reads the same forward and backward after converting uppercase letters to lowercase and removing all non-alphanumeric characters.
 
           2. Alphanumeric characters include:
           - Lowercase letters (a-z)
@@ -39,7 +37,6 @@ and backward after converting uppercase letters to lowercase and removing all no
           - Digits (0-9)
 
           3. If the string becomes empty after removing unwanted characters, it is considered a palindrome.
-
  * __________________________________________________
  *
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
@@ -66,11 +63,10 @@ Remember these three things:
               - If the characters differ, return false immediately.
               - Otherwise, recursively move to the next index.
 *
-
         3. BASE CASE:
               - If firstIndex >= n / 2, return true.
               - Only half of the string needs to be checked because the other half is already covered by the comparisons.
-
+*
         4. IMPORTANT OBSERVATIONS:
               - Preprocessing makes palindrome checking simpler by removing case and punctuation-related differences.
               - A mismatch at any position means the string is not a palindrome, so recursion can stop immediately.
