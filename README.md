@@ -4,10 +4,11 @@ Welcome to my repository! This space is dedicated to my Data Structures and Algo
 
 ## 👨‍💻 About Me & My Skills
 I am constantly practicing and improving my problem-solving skills. My current tech stack includes:
-* **Languages & Web:** C++, HTML, CSS, and JavaScript.
+- **Languages & Web:** C++, HTML, CSS, and JavaScript.
+
+🌐 **GitHub:** [github.com/SIVM02](https://github.com/SIVM02)
 
 ## 🎯 Coding Platforms
 I regularly practice coding questions on:
-* **HackerRank** (Currently focusing on club assignments here)
-* **LeetCode**
-
+- **HackerRank** (Currently focusing on club assignments here)
+- **[LeetCode](https://leetcode.com/u/SIVM02/)**
