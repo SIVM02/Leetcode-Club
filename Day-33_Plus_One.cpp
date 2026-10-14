@@ -37,11 +37,25 @@ digits does not contain any leading 0's.
 
  * __________________________________________________
  * Write statement notes here
+ *          --> Given an array of digits representing a large positive integer, increment the number by one.
+            -->The array stores digits from most significant to least significant.
+            -->Start from the last digit because addition begins at the least significant digit.
+            -->If a digit is less than 9, increment it and stop.
+            -->If a digit is 9, change it to 0 and propagate the carry to the previous digit.
+            -->If every digit is 9, insert 1 at the beginning.
+            -->Do not convert the array into an integer because the number can contain up to 100 digits and exceed standard integer limits.
  * __________________________________________________
  *
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
+ * 
+ *          -->Process from right to left: Addition starts from the least significant digit, which is at the last index of the array.
+            -->Carry propagation: When a digit is 9, adding 1 produces 10. Store 0 at that position and carry 1 to the previous digit.
+            -->Early termination: If a digit is less than 9, increment it and return immediately because no carry remains to be processed.
+            -->Handle the all-9s edge case: If every digit is 9, all digits become 0. A new leading 1 must be inserted.
  * __________________________________________________
  * Write insights here
+ *          -->Time complexity:O(n) in the worst case, when all digits are 9.
+            -->Auxiliary space: O(1) for the carry-processing logic, since the array is modified in place.
  * __________________________________________________
  *
  */
