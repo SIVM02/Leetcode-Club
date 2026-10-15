@@ -29,9 +29,31 @@ Constraints:
 
  * __________________________________________________
  * Write statement notes here
+      Given n, return the nth Fibonacci number.
+ *    Base cases:
+ *    F(0) = 0, F(1) = 1
+ *    Recurrence:
+ *        F(n) = F(n-1) + F(n-2), for n > 1
  * __________________________________________________
  *
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
+         1. Base cases are necessary to stop recursion.
+ *    - If n <= 1, return n.
+ *
+ * 2. Recursive relationship:
+ *    - F(n) depends on F(n-1) and F(n-2).
+ *    - Solve smaller subproblems to calculate the answer.
+ *
+ * 3. Recursive tree:
+ *    - The same subproblems are calculated multiple times.
+ *    - For example, fib(4) calls fib(3) and fib(2),
+ *      and fib(3) again calls fib(2).
+ *
+ * 4. Time Complexity: O(2^n)
+ *    - Exponential time due to repeated calculations.
+ *
+ * 5. Space Complexity: O(n)
+ *    - Maximum recursion stack depth is O(n).
  * __________________________________________________
  * Write insights here
  * __________________________________________________
