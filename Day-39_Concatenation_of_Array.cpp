@@ -25,7 +25,6 @@ Constraints:
 n == nums.length
 1 <= n <= 1000
 1 <= nums[i] <= 1000
-
  * __________________________________________________
  * Write statement notes here
  *        Array concatenation: Duplicate an array by copying its elements into the second half.
