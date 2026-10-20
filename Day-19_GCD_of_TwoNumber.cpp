@@ -36,7 +36,7 @@ Constraints:
  * __________________________________________________
  *
  */
-
+// This is method 1st by Euclidean Algorithm.
 class Solution {
   public:
     int gcd(int a, int b) {
@@ -49,3 +49,21 @@ class Solution {
         return a;
     }
 };
+// This is method 2nd brute force method 
+// In this case time limit excided. but the approach is correct
+int gcd(int a, int b) {
+    // code here
+    int smaller;
+    if(a > b){
+        smaller = b;
+    }else{
+        smaller = a;
+    }
+    int gcd;
+    for(int i = 1 ; i <= smaller ; i++){
+        if(a % i == 0 && b % i == 0){
+            gcd = i;
+        }
+    }
+    return gcd;
+}
