@@ -43,7 +43,8 @@ Constraints:
  * __________________________________________________
  *
  */
-
+// METHOD 1 when i solve this problem i solve with this method ,
+//solve using two pointer
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -56,6 +57,25 @@ public:
         }
         for(int i = j; i < nums.size() ; i++){
             nums[i] = 0;
+        }
+    }
+};
+
+// METHOD 2:- When i do revision then i solve with this approach i know this is not optimal but i think in different, i donot learn the code 
+// Solve using nested loop.  
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        for(int i = 0 ; i < nums.size() ; i++){
+            if(nums[i] == 0){
+                for(int j = i + 1 ; j < nums.size() ; j++){
+                    if(nums[j] != 0){
+                        swap(nums[i] , nums[j]);
+                        break ;
+                    }
+                }
+            }
+            
         }
     }
 };
