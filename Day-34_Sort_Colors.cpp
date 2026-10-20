@@ -46,36 +46,56 @@ nums[i] is either 0, 1, or 2.
  *
  */
 
+//Method 1:- use counting of red white blue then arraange it
+// class Solution {
+// public:
+//     void sortColors(vector<int>& nums) {
+//         int Red = 0;
+//         int White = 0;
+//         int Blue = 0;
+//         for(int i = 0 ; i < nums.size() ; i++){
+//             if(nums[i] == 0){
+//                 Red++;
+//             }
+//             if(nums[i] == 1){
+//                 White++;
+//             }
+//             if(nums[i] == 2){
+//                 Blue++;
+//             }
+//         }
+//         int index = 0;
+        
+//         for(int i = 0 ; i < Red ; i++ ){
+//             nums[index] = 0 ;
+//             index++ ;
+//         }
+//         for(int i = 0 ; i < White ; i++){
+//             nums[index] = 1 ;
+//             index++ ;
+//         }
+//         for(int i = 0 ; i < Blue ; i++){
+//             nums[index] = 2;
+//             index++ ; 
+//         }
+//     }
+// };
+
+// When i do revision then i think about this direction
+// Method 2:- use the selection sort or other sorting algo
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        int Red = 0;
-        int White = 0;
-        int Blue = 0;
+        int larger = nums[0];
         for(int i = 0 ; i < nums.size() ; i++){
-            if(nums[i] == 0){
-                Red++;
+            for(int j = i+1 ; j < nums.size() ; j++){
+                if(nums[j] < nums[i]){
+                    int temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                }
             }
-            if(nums[i] == 1){
-                White++;
-            }
-            if(nums[i] == 2){
-                Blue++;
-            }
-        }
-        int index = 0;
-        
-        for(int i = 0 ; i < Red ; i++ ){
-            nums[index] = 0 ;
-            index++ ;
-        }
-        for(int i = 0 ; i < White ; i++){
-            nums[index] = 1 ;
-            index++ ;
-        }
-        for(int i = 0 ; i < Blue ; i++){
-            nums[index] = 2;
-            index++ ; 
+            
         }
     }
 };
