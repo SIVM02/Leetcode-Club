@@ -4,7 +4,6 @@
  * PROBLEM LINK: https://www.hackerrank.com/challenges/sherlock-and-squares/problem
  * PROBLEM STATEMENT:
  *      Watson likes to challenge Sherlock's math ability. He will provide a starting and ending value that describe a range of integers, inclusive of the endpoints. Sherlock must determine the number of square integers within that range.
-
 Note: A square integer is an integer which is the square of an integer, e.g. 1,4,9,16,25.
 
 Example
@@ -101,7 +100,7 @@ int squares(int a, int b) {
     }
     return count;
 
-    // Method 2... 
+    // Method 2 Using function 
     /*
       int first = ceil(sqrt(a));
       int last = floor(sqrt(b));
@@ -175,6 +174,5 @@ vector<string> split(const string &str) {
     }
 
     tokens.push_back(str.substr(start));
-
     return tokens;
 }
