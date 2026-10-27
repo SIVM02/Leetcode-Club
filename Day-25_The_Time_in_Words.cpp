@@ -35,6 +35,7 @@ Constraints
 1 ≤ h ≤ 12
 0 ≤ m < 60
 
+
  * __________________________________________________
  * Write statement notes here
  * 
@@ -69,6 +70,7 @@ Constraints
             Example:
                 28 % 10 = 8
 
+                
  * __________________________________________________
  * Write insights here
  * __________________________________________________
@@ -186,3 +188,5 @@ string rtrim(const string &str) {
 
     return s;
 }
+
+
