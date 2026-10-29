@@ -58,9 +58,7 @@ s contains characters in the range ascii[a-z] and space, ascii(32).
  * __________________________________________________
  *
  */
-
 #include <bits/stdc++.h>
-
 using namespace std;
 
 /*
