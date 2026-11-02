@@ -2,7 +2,6 @@
 DATE: 14/09/2026.
 
 PROBLEM LINK: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
-
 PROBLEM STATEMENT:
 You are in charge of the cake for a child's birthday. It will have one candle for each year of their total age. They will only be able to blow out the tallest of the candles. Your task is to count how many candles are the tallest.
 
@@ -15,7 +14,7 @@ Function Description:-
 Complete the function birthday CakeCandles with the following parameter(s):
 int candles[n]: the candle heights
 
-Returns
+Returns:-
 int: the number of candles that are tallest
 
 Input Format
@@ -25,8 +24,7 @@ The second line contains n space-separated integers, where each integer i descri
 
 Constraints
 1 ≤ n ≤ 10^ 5
-
-15 ≤ candles[i] ≤ 10^ 7
+15 ≤ candles[i] ≤ 10^7
 
 Sample Input O
 4
