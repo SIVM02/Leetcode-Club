@@ -1,6 +1,5 @@
 /*
  * DATE: 08/10/2026
- *
  * PROBLEM LINK: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
  * PROBLEM STATEMENT:
  *    You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -22,7 +21,6 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 Constraints:
 1 <= prices.length <= 10^5
 0 <= prices[i] <= 10^4
-
  * __________________________________________________
  * Write statement notes here
  * --> Single Transaction: You can only buy once and sell once.
