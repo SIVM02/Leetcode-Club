@@ -31,7 +31,6 @@ Output:
 Constraints:
 1 <= n <= 100
 
-
  * PROBLEM STATEMENT:
  * __________________________________________________
  * Write statement notes here
