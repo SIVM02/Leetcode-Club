@@ -21,7 +21,6 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 Constraints:
 1 ≤ n ≤ 10^9
 
-
 * __________________________________________________
  * Write statement notes here
  * __________________________________________________
@@ -34,7 +33,6 @@ Constraints:
          3} n < 2 is immediately not prime.
          4} If any i satisfies n % i == 0, then n is not prime.
          
-
  * __________________________________________________
  *
  */
