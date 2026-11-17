@@ -48,14 +48,14 @@ The player must avoid c[2] and c[5]. The game can be won with a minimum of 4 jum
  *
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
  *
- *      - This is a GREEDY problem.
- *      - At every cloud, try to jump 2 positions first.
- *        - If the cloud at i + 2 is safe, take the +2 jump.
- *        - Otherwise, take the +1 jump.
+ *            - This is a GREEDY problem.
+ *            - At every cloud, try to jump 2 positions first.
+ *            - If the cloud at i + 2 is safe, take the +2 jump.
+ *            - Otherwise, take the +1 jump.
  * 
- * - Important condition:
- *      i + 2 < c.size()
- *          -> Make sure i + 2 is inside the array.
+ *            - Important condition:
+ *                  i + 2 < c.size()
+ *                  -> Make sure i + 2 is inside the array.
  *
  *      c[i + 2] == 0
  *          -> Make sure the destination is safe.
