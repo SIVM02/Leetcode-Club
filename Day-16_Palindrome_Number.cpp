@@ -21,7 +21,6 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  
 Constraints:
 -2^31 <= x <= 2^31 - 1
-
  * __________________________________________________
  * Write statement notes here
  *        1} A number is a palindrome if it remains the same when reversed.
@@ -32,7 +31,6 @@ Constraints:
  *     1} Extracting digits using % 10 and removing digits using / 10.
  *      2}Handle negative numbers separately.
  *      3}Reverse a number using: reverse = reverse * 10 + digit.
-
  __________________________________________________
  * Write insights here
  * __________________________________________________
