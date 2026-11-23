@@ -20,7 +20,6 @@ Constraints:
 -10^4 < nums[i], target < 10^4
 --> All the integers in nums are unique.
 --> nums is sorted in ascending order.
-
  * __________________________________________________
  * Write statement notes here
  *      --> Focus mainly on 
