@@ -10,7 +10,6 @@ Then, characters are written into a grid, whose rows and columns have the follow
 
 Example:-
 s = if man was meant to stay on the ground god would have given us roots
-
 After removing spaces, the string is 54 characters long. √54 is between 7 and 8, so it is written in the form of a grid with 7 rows and 8 columns.
 
 ifmanwas
