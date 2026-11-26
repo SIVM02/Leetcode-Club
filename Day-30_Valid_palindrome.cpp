@@ -25,11 +25,9 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 Constraints:
 1 <= s.length <= 2 * 105
 s consists only of printable ASCII characters.
-
  * __________________________________________________
  * Write statement notes here
- * 
- *        1. A string is a palindrome if it reads the same forward and backward after converting uppercase letters to lowercase and removing all non-alphanumeric characters.
+          1. A string is a palindrome if it reads the same forward and backward after converting uppercase letters to lowercase and removing all non-alphanumeric characters.
 
           2. Alphanumeric characters include:
           - Lowercase letters (a-z)
