@@ -44,7 +44,6 @@ Constraints:
  * INSIGHTS GAIN FROM THIS QUESTION: ( ANY NOTES, IDEAS, NEW TRICKS / THIS WILL HELP IN QUICK REVISION )
  * 
  *           1. Every decimal number has a binary representation consisting of 0s and 1s.
- *
  *          2. To convert a decimal number into binary:
  *              - Divide the number by 2.
  *              - Store the remainder (0 or 1).
