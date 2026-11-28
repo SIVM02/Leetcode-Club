@@ -51,7 +51,6 @@ Constraints:
  * Write insights here
  * __________________________________________________
  */
-
 class Solution {
 public:
     int hammingWeight(int n) {
